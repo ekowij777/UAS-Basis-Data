@@ -1,0 +1,77 @@
+﻿body {
+    font-family: tahoma, arial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    position: fixed;
+    padding: 0px;
+}
+
+    nav ul {
+        display: flex;
+    }
+
+        nav ul li a {
+            margin: 20px;
+            font-family: myriad pro regular;
+            color: #505050;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    font-family: RoadTest;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.active {
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+table {
+    font-family: Tahoma;
+    color: #5555;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #B0B0B0;
+}
+
+    table tr th {
+        background: #35A5BB;
+        color: #FFFF;
+        font-weight: normal;
+    }
+
+table, th, td {
+    font-size: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #303030
+}
+
+    table tr:hover {
+        background-color: #F5F5F5;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #F2F2F2;
+    }
